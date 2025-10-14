@@ -137,6 +137,7 @@
 
 .arrow img {
   cursor: pointer;
+  cursor: pointer;
   height: 50px;
   margin-left: 550px;
   margin-top: -90px;
@@ -221,6 +222,7 @@
 }
 
 .img img {
+   cursor: pointer;
   margin-top: 50px;
   height: 50px;
 }
@@ -237,7 +239,6 @@
   font-size: 100px;
   color: #ffb8ca;
   text-align: center;
- 
 }
 
 .detail p {
@@ -285,21 +286,21 @@
   justify-content: center;
 }
 
-.text img{
+.text img {
   margin-top: 100px;
   height: 100px;
 }
 
 .text h1 {
-  color: #D41443;
+  color: #d41443;
   font-size: 80px;
- font-family: "Titan One";
+  font-family: "Titan One";
 }
 
 .text p {
   margin-top: 30px;
   font-size: 30px;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   width: 300px;
   line-height: 40px;
 }
@@ -310,11 +311,218 @@
 }
 
 .gridimg img {
+  cursor: pointer;
   margin-top: 150px;
   margin-left: 270px;
   height: 700px;
 }
 
+.gridimg :hover {
+  transform: scale(1.05);
+  transition: 0.2s ease-in-out;
+}
 
+.card-text {
+  background: #fff5f6;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 900px;
+}
 
- 
+.card-text :hover {
+  transform: scale(1.05);
+  transition: 0.2s ease-in-out;
+}
+
+.cardd1 {
+  cursor: pointer;
+  top: -95px;
+  position: relative;
+  width: 600px;
+  border-radius: 30px;
+  box-shadow: #0000003d 0 3px 8px;
+  background: #ffffff;
+  height: 800px;
+}
+
+.cardd1 button {
+  border: none;
+  margin-left: 120px;
+  margin-top: 40px;
+  padding: 16px 140px;
+  text-align: left;
+  font-size: 30px;
+  cursor: pointer;
+  letter-spacing: 1px;
+  background: #f0dbaf;
+  border-radius: 20px;
+  color: #fff;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.cardd1 p {
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.cardd1 h1,
+h2,
+p {
+  margin-left: 20px;
+}
+
+.cardd2 {
+  height: 800px;
+  top: -95px;
+  position: relative;
+  width: 600px;
+  border-radius: 30px;
+  box-shadow: #0000003d 0 3px 8px;
+  background: #ffffff;
+}
+
+.cardd2 button {
+  border: none;
+  margin-left: 120px;
+  margin-top: 40px;
+  padding: 16px 140px;
+  text-align: left;
+  font-size: 30px;
+  cursor: pointer;
+  letter-spacing: 1px;
+  background: rgb(197, 232, 152);
+  border-radius: 20px;
+  color: #fff;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.cardd2 p {
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.cardd2 h1,
+h2,
+p {
+  margin-left: 20px;
+}
+
+.cardd3 {
+  height: 800px;
+  top: -95px;
+  position: relative;
+  width: 600px;
+  border-radius: 30px;
+  box-shadow: #0000003d 0 3px 8px;
+  background: #ffffff;
+}
+
+.cardd3 button {
+  border: none;
+  margin-left: 120px;
+  margin-top: 40px;
+  padding: 16px 140px;
+  text-align: left;
+  font-size: 30px;
+  cursor: pointer;
+  letter-spacing: 1px;
+  background: #f0dbaf;
+  border-radius: 20px;
+  color: #fff;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.cardd3 p {
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.cardd3 h1,
+h2,
+p {
+  margin-left: 20px;
+}
+
+.button2 {
+  background-color: #fff5f6;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.Btnn1 button {
+  cursor: pointer;
+  padding: 10px 20px;
+  font-size: 36px;
+  font-weight: 500;
+  font-family: DM Sans;
+  letter-spacing: 1px;
+  border-radius: 20px;
+  border: none;
+}
+
+.contact {
+  background-color: #fff5f6;
+  height: 800px;
+  display: flex;
+}
+
+.iconss {
+  margin-top: 200px;
+}
+
+.iconss h1 {
+  color: #ffb8ca;
+  font-size: 60px;
+  margin-left: 500px;
+  margin-top: 30px;
+  font-family: "Titan One";
+  font-weight: 300;
+}
+
+i.fa-github {
+  cursor: pointer;
+  font-size: 80px;
+  color: #d41443;
+  position: relative;
+  margin-left: 80px;
+  top: -220px;
+  left: 1700px;
+}
+i.fa-twitter {
+  cursor: pointer;
+  font-size: 80px;
+  color: #d41443;
+  position: relative;
+  margin-left: 80px;
+  top: -220px;
+  left: 1700px;
+}
+i.fa-facebook {
+  cursor: pointer;
+  font-size: 80px;
+  color: #d41443;
+  position: relative;
+  margin-left: 80px;
+  top: -220px;
+  left: 1700px;
+}
+
+.icon p {
+  margin-left: 1700px;
+  margin-top: -100px;
+   font-size: 40px;
+  color: #d41443;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+
+}
