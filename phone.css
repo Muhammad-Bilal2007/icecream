@@ -1,0 +1,142 @@
+@media screen and (max-width: 320px) {
+ * {
+  margin: 0;
+  padding: 0;
+}
+  .parent1 {
+    background-color: #ffb8ca;
+    height: 150px;
+  }
+
+  .top {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+  }
+
+  .image img {
+    margin-top: 5px;
+    width: 50px;
+    height: 15px;
+  }
+
+  .navbar {
+    z-index: 1;
+  }
+
+  .navbar ul {
+    font-family: sans-serif;
+    font-weight: 200;
+    cursor: pointer;
+    color: #f2f2f2;
+    font-size: 7px;
+    display: flex;
+    list-style: none;
+    gap: 10px;
+  }
+
+  #first {
+    margin-left: 5px;
+    list-style-type: none;
+    color: #d41443;
+  }
+
+  .btn button {
+    font-family: sans-serif;
+    padding: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 5px;
+    font-weight: 200;
+    color: #d41443;
+    border: none;
+    border-radius: 50px;
+  }
+
+  .main {
+    color: #f2f2f2;
+    font-size: 5px;
+    font-family: "Titan One", sans-serif;
+    font-style: normal;
+    margin-top: 3px;
+    margin-left: 3px;
+  }
+
+  #btn1 {
+    border: none;
+    margin-top: 3px;
+    cursor: pointer;
+    border-radius: 30px;
+    font-weight: 200;
+    padding: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
+    font-size: 4px;
+    color: #f2f2f2;
+    background-color: #d41443;
+  }
+
+  #btn2 {
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    font-weight: 200;
+    padding: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
+    font-size: 4px;
+    color: #d41443;
+    background-color: #f2f2f2;
+  }
+
+  .ice-container {
+    position: relative;
+  }
+
+  .ice-cream {
+    position: absolute;
+    background: #ffa5ba;
+    width: 108px;
+    height: 110px;
+    top: -85px;
+    left: 140px;
+    border-radius: 80%;
+  }
+
+  .ice-cream img {
+    position: absolute;
+    width: 70px;
+    height: 100px;
+    left: 20px;
+    top: 30px;
+  }
+
+  .main2 {
+    display: flex;
+  }
+
+  .main2 img {
+    margin-left: 5px;
+    height: 50px;
+    width: 40px;
+  }
+
+  .main2 p {
+    margin-top: 18px;
+    margin-left: -3px;
+    font-size: 5px;
+    color: #ffffff;
+  }
+
+  .arrow img {
+    position: relative;
+    cursor: pointer;
+    height: 10px;
+    left: -505px;
+    top: -20px;
+  }
+
+  /* navbar complete */
+
+}

@@ -73,6 +73,7 @@
 }
 
 #btn1 {
+  border: none;
   margin-top: 50px;
   cursor: pointer;
   border-radius: 50px;
@@ -86,6 +87,7 @@
 }
 
 #btn2 {
+  border: none;
   cursor: pointer;
   border-radius: 50px;
   font-weight: 600;
@@ -136,7 +138,6 @@
 }
 
 .arrow img {
-  cursor: pointer;
   cursor: pointer;
   height: 50px;
   margin-left: 550px;
