@@ -1,142 +1,183 @@
 @media screen and (max-width: 320px) {
- * {
-  margin: 0;
-  padding: 0;
-}
   .parent1 {
     background-color: #ffb8ca;
-    height: 150px;
-  }
-
-  .top {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 10px 0;
+    height: 425px;
   }
 
   .image img {
-    margin-top: 5px;
-    width: 50px;
-    height: 15px;
+    margin-top: -20px;
+    width: 160px;
+    height: 61px;
   }
 
   .navbar {
-    z-index: 1;
-  }
-
-  .navbar ul {
-    font-family: sans-serif;
-    font-weight: 200;
-    cursor: pointer;
-    color: #f2f2f2;
-    font-size: 7px;
-    display: flex;
-    list-style: none;
-    gap: 10px;
-  }
-
-  #first {
-    margin-left: 5px;
-    list-style-type: none;
-    color: #d41443;
+    display: none;
   }
 
   .btn button {
+    position: relative;
+    top: -9px;
     font-family: sans-serif;
-    padding: 5px;
-    padding-left: 5px;
-    padding-right: 5px;
-    font-size: 5px;
-    font-weight: 200;
+    cursor: pointer;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 10px;
+    font-weight: 300;
     color: #d41443;
     border: none;
-    border-radius: 50px;
+    border-radius: 30px;
   }
 
   .main {
     color: #f2f2f2;
-    font-size: 5px;
+    font-size: 15px;
+    font-weight: 100;
     font-family: "Titan One", sans-serif;
     font-style: normal;
-    margin-top: 3px;
-    margin-left: 3px;
+    margin-top: -17px;
+    margin-left: 5px;
   }
 
   #btn1 {
     border: none;
-    margin-top: 3px;
+    margin-top: 20px;
     cursor: pointer;
-    border-radius: 30px;
-    font-weight: 200;
-    padding: 3px;
-    padding-left: 3px;
-    padding-right: 3px;
-    font-size: 4px;
+    border-radius: 20px;
+    font-weight: 300;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 11px;
     color: #f2f2f2;
     background-color: #d41443;
   }
 
   #btn2 {
     border: none;
+    margin-top: 20px;
     cursor: pointer;
-    border-radius: 30px;
-    font-weight: 200;
-    padding: 3px;
-    padding-left: 3px;
-    padding-right: 3px;
-    font-size: 4px;
-    color: #d41443;
+    border-radius: 20px;
+    font-weight: 300;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 11px;
     background-color: #f2f2f2;
-  }
-
-  .ice-container {
-    position: relative;
+    color: #d41443;
   }
 
   .ice-cream {
-    position: absolute;
+    position: relative;
     background: #ffa5ba;
-    width: 108px;
-    height: 110px;
-    top: -85px;
-    left: 140px;
-    border-radius: 80%;
+    width: 166px;
+    height: 213px;
+    top: -177px;
+    left: 155px;
+    border-radius: 100%;
   }
 
   .ice-cream img {
-    position: absolute;
-    width: 70px;
-    height: 100px;
-    left: 20px;
-    top: 30px;
-  }
-
-  .main2 {
-    display: flex;
+    position: relative;
+    width: 138px;
+    height: 230px;
+    left: 14px;
+    top: 12px;
   }
 
   .main2 img {
-    margin-left: 5px;
-    height: 50px;
-    width: 40px;
+    position: relative;
+    left: -243px;
+    top: -176px;
+    height: 140px;
+    width: 200px;
   }
 
   .main2 p {
-    margin-top: 18px;
-    margin-left: -3px;
-    font-size: 5px;
+    margin-left: -255px;
+    margin-top: -110px;
+    font-size: 12px;
     color: #ffffff;
   }
 
   .arrow img {
     position: relative;
     cursor: pointer;
-    height: 10px;
-    left: -505px;
-    top: -20px;
+    height: 19px;
+    margin-left: 132px;
+    top: -194px;
   }
 
   /* navbar complete */
 
+  .card-head h1 {
+    text-align: center;
+    font-family: Titan One;
+    font-size: 31px;
+    font-weight: 200;
+    line-height: 29px;
+    letter-spacing: 0.02em;
+    color: #d41443;
+  }
+
+  .cards {
+    flex-direction: column;
+  }
+
+  .pink {
+    background-color: #ffb8ca;
+  }
+  .brown {
+    background-color: #f0d1a5;
+  }
+  .green {
+    background-color: #c2e297;
+  }
+
+  .card1 {
+    position: relative;
+    top: -487px;
+    left: 22px;
+    width: 254px;
+    height: 402px;
+    border-radius: 20px;
+    color: #f2f2f2;
+    font-family: "Titan One";
+    font-style: normal;
+    font-size: 13px;
+    text-align: center;
+  }
+
+  .card1 h1 {
+    font-size: 30px;
+    margin-top: 120px;
+  }
+
+  .card-img1 img {
+    z-index: 1;
+    position: relative;
+    top: -365px;
+    left: 5px;
+    height: 300px;
+  }
+  .card-img2 img {
+    z-index: 1;
+    position: relative;
+    top: -365px;
+    left: 5px;
+    height: 300px;
+  }
+  .card-img3 img {
+    z-index: 1;
+    position: relative;
+    top: -365px;
+    left: 5px;
+    height: 300px;
+  }
+
+  .img img {
+   cursor: pointer;
+  margin-top: 30px;
+  height: 20px;
+}
 }
