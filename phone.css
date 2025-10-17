@@ -176,8 +176,315 @@
   }
 
   .img img {
-   cursor: pointer;
-  margin-top: 30px;
-  height: 20px;
+    cursor: pointer;
+    margin-top: 7px;
+    height: 20px;
+  }
+
+  .detail {
+    margin-top: -460px;
+    background-color: #fff5f6;
+  }
+
+  .detail h1 {
+    margin-top: 10px;
+    font-family: "Titan One";
+    font-weight: 100;
+    font-size: 40px;
+    color: #ffb8ca;
+    text-align: center;
+  }
+
+  .detail p {
+    font-family: "Titan One";
+    font-weight: 100;
+    font-size: 20px;
+    color: #d41443;
+    text-align: center;
+  }
+
+  .cow-img {
+    flex-direction: column;
+  }
+
+  .cow-img img {
+    height: 340px;
+    margin-left: -40px;
+    margin-top: 40px;
+  }
+
+  .cow-img p {
+    line-height: 20px;
+    margin-top: 10px;
+    text-align: center;
+    color: black;
+    width: 200px;
+    font-size: 15px;
+    font-family: sans-serif;
+  }
+
+  .cow-img h1 {
+    margin-top: 20px;
+    margin-left: -150px;
+    text-align: center;
+    color: #d41443;
+    font-weight: 700;
+    width: 600px;
+    font-size: 20px;
+    font-family: sans-serif;
+  }
+
+  .png {
+    height: auto;
+    background-color: #fff5f6;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .text img {
+    margin-left: 50px;
+  }
+
+  .text h1 {
+    color: #d41443;
+    font-size: 50px;
+    margin-left: 50px;
+    font-family: "Titan One";
+  }
+
+  .text p {
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    width: 200px;
+    line-height: 20px;
+  }
+
+  .gridimg {
+    background-color: #fff5f6;
+    height: 430px;
+  }
+
+  .gridimg img {
+    cursor: pointer;
+    margin-top: 312px;
+    margin-left: -33px;
+    height: 130px;
+  }
+
+  .card-text {
+    background: #fff5f6;
+    flex-direction: column;
+    gap: 100px;
+    margin-top: 200px;
+  }
+
+  .cardd1 {
+    cursor: pointer;
+    top: -95px;
+    position: relative;
+    width: 269px;
+    border-radius: 30px;
+    box-shadow: #0000003d 0 3px 8px;
+    background: #ffffff;
+    margin-left: 25px;
+    height: 600px;
+  }
+
+    .cardd1 button {
+        border: none;
+        margin-left: 56px;
+        margin-top: 40px;
+        padding: 8px 59px;
+        font-size: 20px;
+        letter-spacing: 1px;
+        background: #f0dbaf;
+        border-radius: 20px;
+        color: #fff;
+        font-weight: 400;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+  .cardd1 p {
+    font-weight: 700;
+    font-size: 15px;
+  }
+
+  .cardd1 h1,
+  h2,
+  p {
+    font-size: 20px;
+    margin-left: 20px;
+  }
+
+  .cardd2 {
+    cursor: pointer;
+    top: -95px;
+    position: relative;
+    width: 269px;
+    border-radius: 30px;
+    box-shadow: #0000003d 0 3px 8px;
+    background: #ffffff;
+    margin-left: 25px;
+    height: 600px;
+  }
+
+    .cardd2 button {
+        border: none;
+        margin-left: 56px;
+        margin-top: 40px;
+        padding: 8px 59px;
+        font-size: 20px;
+        letter-spacing: 1px;
+        background: #f0dbaf;
+        border-radius: 20px;
+        color: #fff;
+        font-weight: 400;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+  .cardd2 p {
+    font-weight: 700;
+    font-size: 15px;
+  }
+
+  .cardd2 h1,
+  h2,
+  p {
+    font-size: 20px;
+    margin-left: 20px;
+  }
+
+  .cardd3 {
+    cursor: pointer;
+    top: -95px;
+    position: relative;
+    width: 269px;
+    border-radius: 30px;
+    box-shadow: #0000003d 0 3px 8px;
+    background: #ffffff;
+    margin-left: 25px;
+    height: 600px;
+  }
+
+      .cardd3 button {
+        border: none;
+        margin-left: 56px;
+        margin-top: 40px;
+        padding: 8px 59px;
+        font-size: 20px;
+        letter-spacing: 1px;
+        background: #f0dbaf;
+        border-radius: 20px;
+        color: #fff;
+        font-weight: 400;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+  .cardd3 p {
+    font-weight: 700;
+    font-size: 15px;
+  }
+
+  .cardd3 h1,
+  h2,
+  p {
+    font-size: 20px;
+    margin-left: 20px;
+  }
+
+  .button2 {
+    background-color: #fff5f6;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .Btnn1 button {
+    cursor: pointer;
+    padding: 5px 10px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: DM Sans;
+    letter-spacing: 1px;
+    border-radius: 20px;
+    border: none;
+  }
+
+  .contact {
+    background-color: #fff5f6;
+    height: 400px;
+    flex-direction: column;
+  }
+
+  .iconss {
+    margin-top: 20px;
+  }
+
+  .iconss h1 {
+    color: #ffb8ca;
+    font-size: 17px;
+    margin-left: 40px;
+    margin-top: 20px;
+    font-family: "Titan One";
+    font-weight: 300;
+  }
+
+  .head p {
+    color: #d41443;
+    font-size: 38px;
+    margin-left: 24px;
+    margin-top: 6px;
+    font-family: "Titan One";
+    font-weight: 100;
+  }
+
+  i.fa-github {
+    align-items: center;
+    cursor: pointer;
+    font-size: 40px;
+    color: #d41443;
+    position: relative;
+    margin-left: 80px;
+    top: 15px;
+    left: -40px;
+  }
+
+  i.fa-twitter {
+    align-items: center;
+    cursor: pointer;
+    font-size: 40px;
+    color: #d41443;
+    position: relative;
+    margin-left: 3px;
+    top: 15px;
+    left: 10px;
+  }
+
+  i.fa-facebook {
+    align-items: center;
+    cursor: pointer;
+    font-size: 40px;
+    color: #d41443;
+    position: relative;
+    margin-left: 3px;
+    top: 15px;
+    left: 50px;
+  }
+
+  .icon p {
+    margin-left: 14px;
+    margin-top: 54px;
+    font-size: 18px;
+    color: #d41443;
+  }
+
+  .footer p{
+  background-color: black;
+  color: white;
+  font-size: 10px;
+  text-align: center;
+
 }
 }
